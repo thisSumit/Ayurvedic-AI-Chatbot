@@ -32,7 +32,8 @@ Provide:
 2. Daily precautions
 3. Dietary recommendations
 4. Lifestyle changes
-5. Disclaimer that this is not a substitute for professional medical advice.
+5. If any sanskrut word present then please add actually meaning of that sanskrut word in brackets.
+6. Disclaimer that this is not a substitute for professional medical advice.
 """
         response = model.generate_content(prompt)
         return response.text.strip()
