@@ -1,0 +1,47 @@
+Here’s what you need run this:
+
+streamlit
+google-generativeai
+python-dotenv
+
+
+Why these?
+
+streamlit → For building and running your app.
+
+google-generativeai → For Gemini AI integration.
+
+python-dotenv → If you later want to load .env files for local API keys (optional but useful).
+
+How to Use
+
+Create the file in your project folder:
+
+nano requirements.txt
+
+
+Paste in:
+
+streamlit
+google-generativeai
+python-dotenv
+
+
+Save & commit to GitHub:
+
+git add requirements.txt
+git commit -m "Add requirements.txt for Streamlit deployment"
+git push origin main
+
+
+Redeploy your app on Streamlit Cloud.
+
+Streamlit will see the requirements.txt and auto-install everything.
+
+⚡ Pro Tip
+If you ever want to auto-generate all dependencies from your local environment:
+
+pip freeze > requirements.txt
+
+
+Then edit the file to keep only the ones your project actually needs (to avoid slow installs).
