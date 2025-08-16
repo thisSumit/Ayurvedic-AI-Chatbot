@@ -76,4 +76,4 @@ if st.session_state.history:
 
 st.markdown("---")
 st.markdown("⚠️ *This AI Doctor provides general Ayurvedic suggestions. Please consult a qualified practitioner before following any remedy.*")
-st.markdown("💻 Developed by **Amit Anand Sumit**")
+st.markdown("💻 Developed by **Sumit Karanjekar**")
